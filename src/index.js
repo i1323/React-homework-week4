@@ -15,4 +15,5 @@ function Content() {
   );
 }
 
-Content.call;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Content />, rootElement);
