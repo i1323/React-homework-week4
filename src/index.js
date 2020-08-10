@@ -15,4 +15,4 @@ function Content() {
   );
 }
 
-Content;
+call(Content);
